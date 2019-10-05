@@ -1,0 +1,40 @@
+{
+  "name": "css-name-optimizer-plugin",
+  "author": "Kuba Dospial",
+  "keywords": [
+    "webpack",
+    "angular",
+    "css",
+    "reduce",
+    "map",
+    "mapping",
+    "optimizer",
+    "plugin",
+    "name"
+  ],
+  "version": "1.0.0-beta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kubadospial/css-name-optimizer-plugin"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.2",
+    "chai": "^4.2.0",
+    "gulp": "4.0.0",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webserver": "^0.9.1",
+    "mocha": "^6.1.4",
+    "neo-async": "^2.6.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2"
+  },
+  "bugs": {
+    "url": "https://github.com/kubadospial/css-name-optimizer-plugin/issues"
+  },
+  "homepage": "https://github.com/kubadospial"
+}
