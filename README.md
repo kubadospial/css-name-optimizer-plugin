@@ -8,7 +8,7 @@ This is a webpack plugin for Angular to optimize CSS class names to 6 random cha
 
 - **Plugin will run only when you build/serve app with --prod flag!!!**
 - This plugin is compatibile with Angular 7 and up.
-- If You use CDN styles then plugin won't remap class names.
+- If You use CDN styles then plugin won't map those class names.
 - We're working on Chrome extension to revert css mapping on production environment for development purposes.
 
 ### Example HTML/CSS output:
