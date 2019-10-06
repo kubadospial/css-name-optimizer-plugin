@@ -19,6 +19,14 @@ This is a webpack plugin for Angular to optimize CSS class names to 6 random cha
 
 To use this plugin you need to:
 
+- install package:
+
+```js
+yarn add css-name-optimizer-plugin --dev
+// or
+npm install css-name-optimizer-plugin --save-dev
+```
+
 - add custom webpack config
   [alligator.io: Custom webpack config](https://alligator.io/angular/custom-webpack-config/).
 - create webpack.config.js:
