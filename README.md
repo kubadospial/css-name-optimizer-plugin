@@ -12,6 +12,7 @@ This plugin is compatibile with Angular 7 and up.
 
 ```
 ** NOTE **
+Plugin wil run only when you build/serve app with --prod flag!!!
 If You use CDN styles then plugin won't remap class names.
 We're working on Chrome extension to revert css mapping on production environment for development purposes.
 ```
