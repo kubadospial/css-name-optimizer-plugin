@@ -4,18 +4,16 @@ This is a webpack plugin for Angular to optimize CSS class names to 6 random cha
 
 ---
 
-This plugin is compatibile with Angular 7 and up.
+## NOTE
 
-### Example output:
+- **Plugin will run only when you build/serve app with --prod flag!!!**
+- This plugin is compatibile with Angular 7 and up.
+- If You use CDN styles then plugin won't remap class names.
+- We're working on Chrome extension to revert css mapping on production environment for development purposes.
+
+### Example HTML/CSS output:
 
 ![alt text](https://user-images.githubusercontent.com/24934035/66254740-03aa5900-e77b-11e9-8511-17ebb751de3a.png)
-
-```
-** NOTE **
-Plugin wil run only when you build/serve app with --prod flag!!!
-If You use CDN styles then plugin won't remap class names.
-We're working on Chrome extension to revert css mapping on production environment for development purposes.
-```
 
 # How to use
 
